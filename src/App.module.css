@@ -9,9 +9,15 @@ body {
 
     display: grid;
     place-items: center;
+
+    font-family: "Iran";
 }
 
 .container {
+    height: 100vh;
+    max-width: 600px;
+    min-width: 300px;
+
     display: flex;
     flex-direction: column;
 
