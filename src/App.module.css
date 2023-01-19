@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+
+    display: grid;
+    place-items: center;
+
+    font-family: "Iran";
+}
+
+.container {
+    height: 100vh;
+    max-width: 600px;
+    min-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: max-content;
+    padding: 20px;
+    background-color: gray;
+}
+
+.head {
+    display: flex;
+}
